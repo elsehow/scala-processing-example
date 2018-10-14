@@ -7,8 +7,7 @@ lazy val root = (project in file(".")).
       scalaVersion := "2.12.7",
       version      := "0.1.0-SNAPSHOT"
     )),
-    name := "adversary-personas",
-    libraryDependencies += scalaTest % Test,
+    name := "scala-processing-example",
     libraryDependencies ++= Seq(
       "org.processing" % "core" % "3.0b5",
       "org.processing" % "net" % "3.0b5",
